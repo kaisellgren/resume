@@ -2,3 +2,7 @@ name: resume
 dependencies:
   polymer: any
   http_server: any
+transformers:
+- polymer:
+    entry_points:
+    - web/index.html
