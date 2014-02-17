@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+
+<polymer-element name="x-collapsible">
+  <template>
+    <div class="x-collapsible-container">
+      <content></content>
+    </div>
+
+    <template if="{{!expanded}}">
+      <a on-click="{{expand}}">{{readMoreText}}</a>
+    </template>
+  </template>
+  <script src="collapsible.dart" type="application/dart"></script>
+  <link rel="stylesheet" href="styles.css" />
+</polymer-element>
