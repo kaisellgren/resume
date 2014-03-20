@@ -1,6 +1,6 @@
 (function() {
   var block = window.document.querySelector('.profile-inner-block')
-  var topY = block.offsetTop
+  var topY = 242
 
   var hasClass = false
   window.addEventListener('scroll', function (e) {
